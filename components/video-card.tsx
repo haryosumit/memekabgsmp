@@ -12,10 +12,10 @@ const VideoCard = ({ video }: any) => {
                 <Link
                     href={`/v/${video.file_code}#${video.title}`}
                     title={`Bokep ${video.title}`}
+                    target="blank"
                     >
                 <Thumbnail
-                    single_img={video.single_img}
-                    splash_img={video.splash_img}
+                    thumbnail={video.thumbnail}
                     title={video.title}
                 />
                 </Link>
@@ -26,7 +26,7 @@ const VideoCard = ({ video }: any) => {
                     className="line-clamp-2 text-sm md:text-md font-semibold hover:text-primary focus:text-primary"
                     title={`Watch ${video.title}`}
                 >
-                    Bokep {video.title}
+                    {video.title}
                 </Link></h3>
             </CardContent>
         </Card>
