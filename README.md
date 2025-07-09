@@ -1,2 +1,1 @@
-# memekabgsmp
-memekabgsmp
+# [memekabgsmp](https://memekabgsmp.pages.dev)
